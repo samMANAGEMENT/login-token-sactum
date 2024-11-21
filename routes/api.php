@@ -20,3 +20,5 @@ Route::controller(RegisterController::class)->group(function(){
 
 require __DIR__ . '/Mesas/Mesas.php';
 require __DIR__ . '/Platos/Platos.php';
+require __DIR__ . '/Orden/Orden.php';
+require __DIR__ . '/Reservas/Reservas.php';
