@@ -14,4 +14,12 @@ class MesasRepository{
     {
         return Mesas::select('id', 'sillas', 'estado')->paginate(10);
     }
+
+    public function EditarMesa($id, array $data)
+{
+    $mesa = Mesas::findOrFail($id);
+    $mesa->update($data);
+
+    return $mesa;
+}
 }
