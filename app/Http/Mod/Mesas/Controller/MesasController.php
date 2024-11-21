@@ -15,7 +15,7 @@ class MesasController extends Controller
     public function CrearMesas(Request $request)
     {
         $validatedData = $request->validate([
-            'silla' => 'required',
+            'sillas' => 'required',
             'estado' => 'required',
         ]);
 
