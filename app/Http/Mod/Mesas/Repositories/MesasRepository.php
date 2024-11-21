@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Modules\Mesas\Repositories;
+namespace App\Http\Mod\Mesas\Repositories;
 
-use App\Http\Modules\Mesas\Models\Mesas;
+use App\Http\Mod\Mesas\Models\Mesas;
 
 class MesasRepository{
     public function CrearMesas(array $data)

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Modules\Mesas\Controller;
+namespace App\Http\Mod\Mesas\Controller;
 
 use App\Http\Controllers\Controller;
-use App\Http\Modules\Mesas\Repositories\MesasRepository;
+use App\Http\Mod\Mesas\Repositories\MesasRepository;
 use Illuminate\Http\Request;
 
 class MesasController extends Controller
